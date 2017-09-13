@@ -27,10 +27,10 @@ app.on("ready", () => {
       mainWindow.hide();
     } else {
       mainWindow.setBounds({
-        x: x - width / 2,
-        y: y,
-        heigth: height,
-        width: width
+        x: x,
+        y,
+        height,
+        width
       });
       mainWindow.show();
     }
